@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Mayur Mehta
+MAINTAINER Devarcon
 ADD WebContent /var/www/html/
 RUN apt-get update -y
 RUN apt-get install apache2 -y
